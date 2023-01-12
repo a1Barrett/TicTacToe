@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"cpsc2150.extendedTicTacToe"},{"l":"cpsc2150.extendedTicTacToe.controllers"},{"l":"cpsc2150.extendedTicTacToe.models"},{"l":"cpsc2150.extendedTicTacToe.views"}]
