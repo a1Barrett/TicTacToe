@@ -15,6 +15,7 @@ TicTacToeGame.java
     thread which will wait for an event to occur.
 
 Models -
+
 BoardPosition.java
       This class is be used to keep track of an individual cell for a board. BoardPosition will
       have variables to represent the Row position and the Column position. There is only be one 
@@ -39,6 +40,7 @@ GameBoardMem.java
       player adds more tokens, you add the BoardPosition onto the List for that player.
       
 Views -
+  
 GameSetupScreen.java
       This class contains the code to create and layout the GUI for the setup screen. It also is the observer of
       the submit button. When someone clicks on submit, the actionPerformed method is called, which
@@ -50,6 +52,7 @@ TicTacToeView.java
       controller by calling the processButtonClick method.
       
 Controllers - 
+  
 GameSetupController.java
       This class is the controller for our setup screen. The processButtonClick method is called by
       GameSetupView when someone clicks on the submit button. It is passed in the rows, cols, players and
@@ -71,6 +74,7 @@ TicTacToeController.java
       occur, and then we respond to them (event-driven programming).
 
 JUnit tests:
+  
   There are two JUnit test classes.  One for GameBoard and one for GameBoardMem. The JUnit test code
   uses the Factory Method Design Pattern by having a private method that calls the constructor fo the 
   IGameBoard object and returns it.
@@ -81,14 +85,17 @@ Javadoc Documentation:
   Doc folder contains javadoc comments for all files presented as a web page.
 
 Program Report:
+  
 Requirements Analysis -
     Fully analyze the requirements of this program. Express all functional requirements as user
     stories. List all non-functional requirements of the program as well. 
+  
 Design - 
     Create class diagrams for GameScreen, BoardPosition, IGameBoard, GameBoardMem, AbsGameBoard, 
     GameBoard, and TicTacToeController. You also need to provide an activity diagram for 
     TicTacToeController, IGameBoard, GameBoard, and GameBoardMem. All design elements are created
     using draw.io.
+  
 Testing
     Your report should include the test cases created.
 
