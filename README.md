@@ -90,15 +90,15 @@ TicTacToeController.java
 
 JUnit tests:
   
-  There are two JUnit test classes.  One for GameBoard and one for GameBoardMem. The JUnit test code
-  uses the Factory Method Design Pattern by having a private method that calls the constructor fo the 
-  IGameBoard object and returns it.
-  Each tests the following methods: constructor, checkSpace, checkHorizontalWin, checkVerticalWin,
-  checkDiagonalWin, checkForDraw, whatsAtPos, isPlayerAtPos, and placeMarker.
+    There are two JUnit test classes.  One for GameBoard and one for GameBoardMem. The JUnit test code
+    uses the Factory Method Design Pattern by having a private method that calls the constructor fo the 
+    IGameBoard object and returns it.
+    Each tests the following methods: constructor, checkSpace, checkHorizontalWin, checkVerticalWin,
+    checkDiagonalWin, checkForDraw, whatsAtPos, isPlayerAtPos, and placeMarker.
 
 Javadoc Documentation:
 
-  Doc folder contains javadoc comments for all files presented as a web page.
+    Doc folder contains javadoc comments for all files presented as a web page.
 
 Program Report:
   
