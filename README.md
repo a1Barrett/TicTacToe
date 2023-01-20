@@ -20,7 +20,7 @@ Models -
 BoardPosition.java
 
       This class is be used to keep track of an individual cell for a board. BoardPosition will
-      have variables to represent the Row position and the Column position. There is only be one 
+      have variables to represent the Row position and the Column position. There is only one 
       constructor for the class, which will take in an int for the Row position and an int for the 
       Column position. After the constructor is called, there is no way to change any fields.
       The equals() method is overriden.  The toString() method is also overriden to create a string
@@ -46,6 +46,12 @@ GameBoardMem.java
       comes from the fact that the empty board does not use up any space in memory. When a player adds
       their first token, you add the key for that player and a List with that BoardPosition in it. As a
       player adds more tokens, you add the BoardPosition onto the List for that player.
+
+AbsGameBoard.java
+      
+      An abstract class that implements the IGameBoard interface.  It overrides the toString function creating a 
+      representation of the entire GameBoard. Used in previous versions of this project that implemented the
+      Tic Tac Toe game through a command line interface.
       
 Views -
   
