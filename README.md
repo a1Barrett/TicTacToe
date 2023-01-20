@@ -4,9 +4,8 @@ School project to create a tic tac toe game with a gui.
 
 Introduction:
 
-  Project was orginally created using a command line interface.  In this assignment, we will use a 
-  Graphical User Interface (GUI) and the Model-View-Controller architectural pattern to move our 
-  Tic-Tac-Toe game from a command line interface to a Graphical User Interface. 
+  I will use a Graphical User Interface (GUI) and the Model-View-Controller architectural pattern to create 
+  a Tic-Tac-Toe game.
 
 Files:
 
